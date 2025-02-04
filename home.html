@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo"><span style="color: #FFD700;">N</span>oor</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Latif Taj Noor</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="Frontend Web Designer">Frontend Web Designer</span>
+                <span style="--i:3;" data-text="Coder">Coder</span>
+                <span style="--i:2;" data-text="Content Writer">Content Writer</span>
+                <span style="--i:1;" data-text="Photographer">Photographer</span>
+            </h2>
+            <p>A passionate web developer and computer science student currently pursuing my BSc in Computer Science at
+                Taizhou University, China. With over a year of experience in web development, I specialize in creating
+                sleek, user-friendly interfaces and bringing innovative ideas to life.</p>
+            <div class="btn-sci">
+                <a href="./Assets/Noor's Resume.pdf" class="btn" download>Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/Reyad77" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/latif-taj-noor-5b95b9129/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/Taz2807" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://discord.com/users/shin_horcrux" target="_blank"><i
+                            class='bx bxl-discord-alt'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./Assets/1a.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section  -->
+    <Section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-edit-alt'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>Content Writer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera'></i>
+                    <a href=""><i class='bx bx-left-arrow-alt'></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia error ab vero minima
+                    necessitatibus.</p>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">I am a passionate and skilled web developer with expertise in frontend technologies.
+                    With hands-on experience in designing and developing user-friendly interfaces, I bring creativity
+                    and efficiency to every project. My ability to adapt to new technologies and solve problems
+                    efficiently makes me a valuable asset to any team.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Over the years, I have gained valuable experience working in various development
+                        roles, improving my technical skills and problem-solving abilities.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024 (September) - present</p>
+                            <h3>Minister of Publicity Department</h3>
+                            <p class="company">Taizhou University International Student Union</p>
+                            <p>I recently got promoted as the minister of the department.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023(sept) - 2024(sept)</p>
+                            <h3>Member of Publicity Department</h3>
+                            <p class="company">Taizhou University International Student Union</p>
+                            <p>I have worked for the department as a member. My tasks were writing article and
+                                designing.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Graphic Designer</h3>
+                            <p class="company">Freelance</p>
+                            <p>I have created so many posters and flyers as a freelancer.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>Call Center Executive</h3>
+                            <p class="company">Japan Tobacco Ltd.</p>
+                            <p>I worked as a call center executive in Japan Tobacco Ltd.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024 - Present</p>
+                            <h3>Social Media Manager</h3>
+                            <p class="company">Taizhou University</p>
+                            <p>I manage the official social media handles of Taizhou University</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024 - Present</p>
+                            <h3>Content Designer</h3>
+                            <p class="company">Taizhou University</p>
+                            <p>I am currently Working as a Content designer for Taizhou University Social media and
+                                websites. I design articles for the website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">I have a strong educational background in Computer Science and Technology,
+                        supplemented with various online courses and certifications.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - Present</p>
+                            <h3> BSC in Computer Science & Technology</h3>
+                            <p class="company">Taizhou University, China</p>
+                            <p>Currently pursuing my degree with a focus on software development, algorithms, and web
+                                technologies.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Frontend Development Course</h3>
+                            <p class="company">Udemy Online Course</p>
+                            <p>Completed an advanced frontend development course, gaining in-depth knowledge of modern
+                                web technologies like React.js, Tailwind CSS, and JavaScript frameworks.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>Web Development Bootcamp</h3>
+                            <p class="company">Creative IT Solutions</p>
+                            <p>Underwent intensive training in web development, covering full-stack technologies and
+                                project-based learning.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2017 - 2019</p>
+                            <h3>Higher Secondary Certificate</h3>
+                            <p class="company">Mohammadpur Govt. College</p>
+                            <p>Studied science with a focus on mathematics and computer science.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2016 - 2017</p>
+                            <h3>Secondary School Certificate</h3>
+                            <p class="company">Mohammadpur Model School & College</p>
+                            <p>Completed secondary education with a specialization in science.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">My technical skills include :</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-vuejs'></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css'></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs'></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-bootstrap'></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">I am a dedicated and creative individual with a passion for technology and
+                        continuous learning. Apart from development, I enjoy content creation, photography, and digital
+                        marketing.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Latif Taj Noor</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span> 25 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Engaged</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span> Linhai</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Bangladeshi</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>3+ Years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span> Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+86) 132 9160 3720</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>latif.tajnoor@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages <span>Bengali, English, Hindi, Urdu, Chinese</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">
+            Latest <span>Project</span>
+        </h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Developed a fully responsive web application using HTML5, CSS3, and JavaScript, ensuring seamless
+                        user experience and modern design principles.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-left-arrow-alt'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Content Designing</h3>
+                    <p>Designed engaging digital content using Xiumi and Canva, focusing on branding and audience
+                        engagement.</p>
+                    <div class="tech">
+                        <p>Xiumi, Canva</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://mp.weixin.qq.com/s/HICyAEunzDgZ2HP0DC3H5Q" target="_blank"><i
+                                class='bx bx-left-arrow-alt'></i><span>Direct Link</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Content Designing</h3>
+                    <p>Created high-quality visual and textual content using Xiumi, Canva, and Photoshop for marketing
+                        and informational purposes.</p>
+                    <div class="tech">
+                        <p>Xiumi, Canva, Photoshop</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://mp.weixin.qq.com/s/uKvuaHSNYlcd24NJ2-4QpQ" target="_blank"><i
+                                class='bx bx-left-arrow-alt'></i><span>Direct Link</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Social Media Managing</h3>
+                    <p>Managed the official social media pages of Taizhou University, enhancing audience engagement and
+                        content strategy.</p>
+                    <div class="tech">
+                        <p>Facebook, Youtube</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://www.facebook.com/tzuglobal/" target="_blank"><i
+                                class='bx bx-left-arrow-alt'></i><span>Facebok</span></a>
+                        <a href="https://www.youtube.com/@TZUGlobal台院国际" target="_blank" class="yt"><i
+                                class='bx bx-left-arrow-alt'></i><span>youtube</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>News & Article Writing</h3>
+                    <p>Authored and published well-researched news articles and blog posts on various platforms,
+                        delivering informative and engaging content about Taizhou University.</p>
+                    <div class="tech">
+                        <p></p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-left-arrow-alt'></i><span>Direct Link</span></a>
+                    </div>
+
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Event Photography</h3>
+                    <p>Captured high-quality event photographs, covering university events and cultural programs with a
+                        professional approach.</p>
+                    <div class="tech">
+                        <p></p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-left-arrow-alt'></i><span></span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="./Assets/1a.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="./Assets/2.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="./Assets/3.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="./Assets/4.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="./Assets/5.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="./Assets/6.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">If you have a project idea or need a professional touch to your existing work, feel free to get in touch. I am always excited to collaborate and bring innovative ideas to life.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+86) 132 9160 3720</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>latif.tajnoor@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>605 DongFang Avenue, Linhai, Taizhou, Zhejiang, China.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <Span>Me!</Span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
